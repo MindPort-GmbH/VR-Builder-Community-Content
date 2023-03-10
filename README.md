@@ -2,8 +2,7 @@
 
 At MindPort we want to thank you for being part of this community and contributing to the community repository of VR Builder, a place where you can share your custom behaviors, conditions and extensions.
 
-### Table of Contents:
-
+### Table of Contents
 1. [Getting Started](#getting-started)
 1. [Content Guidelines](#content-guidelines)
 1. [Submitting content](#submitting-content)
@@ -13,14 +12,13 @@ At MindPort we want to thank you for being part of this community and contributi
 1. [Legal](#legal)
 
 ## Getting Started
-
-The easiest and simplest way to get started and try out VR Builder is by downloading the latest version from our [Git Repo](https://github.com/MindPort-GmbH/VR-Builder) or the [Unity Asset Store](https://assetstore.unity.com/packages/tools/visual-scripting/vr-builder-open-source-toolkit-for-vr-creation-201913)..
+The easiest and simplest way to get started and try out VR Builder is by downloading the latest version from our [Git Repo](https://github.com/MindPort-GmbH/VR-Builder) or the [Unity Asset Store](https://assetstore.unity.com/packages/tools/visual-scripting/vr-builder-open-source-toolkit-for-vr-creation-201913).
 
 Make sure to follow VR Builder [tutorials](https://www.mindport.co/vr-builder/tutorials) and read the [documentation](https://www.mindport.co/vr-builder/manual/online-documentation) for a deeper understanding of how the tool works.
 
+Templates for behaviors and conditions can be found in this repo. Feel free to use them as a base to develop your own!
 
-##Content guidelines
-
+## Content guidelines
 Your contribution should be documented and contained in its own subfolders.
 Content submitted is suitable for use in a professional or personal development pipeline.
 The submission does not directly recreate a popular design, art style and aesthetic, and is not a compilation of found (copyrighted or not) content/products. The submission is also not the direct result of public tutorials, unless significant value is added beyond the result of the tutorial.
@@ -31,17 +29,12 @@ Titles, categories, keywords, folders, and file names are a relevant representat
 Titles, descriptions, keywords, documentation, and code comments are in English. 
 Submissions may include demo scenes. 
 
-
-
 ## Submitting Content
-
 By default, this repository is protected, the only way to submit changes is by merging via [creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork), this is only intending to provide the best quality and add a security layer, we could detect and prevent new bugs, breaking functionalities and avoid violations to [code convention](#coding-conventions).
 
 See more about [Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) and [how to fork a repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo).
 
-
 ## Maintainers
-
 Meet out maintainers:
 
 | [<img alt="Marcello Tridenti" src="https://avatars.githubusercontent.com/u/24916383?v=4" width="110">](https://github.com/VaLiuM09) | 
@@ -50,12 +43,11 @@ Meet out maintainers:
 
 | [<img alt="Valeria Acevedo" src="https://avatars.githubusercontent.com/u/52221800?v=4" width="110">](https://github.com/bideckerz) | 
 | --- |
-| [Valeria A..](mailto:valeria.acevedo@mindport.co) |
+| [Valeria A.](mailto:valeria.acevedo@mindport.co) |
 
 Maintainers are responsible for this repository and its community.
 
 ## Coding Conventions
-
 By encouraging coding conventions we ensure:
 
 * The code has to have a consistent look, so that readers can focus on content, not layout.
@@ -65,9 +57,7 @@ By encouraging coding conventions we ensure:
 
 We recommend following Innoactive [Coding Conventions](https://github.com/Innoactive/XR-Interaction-Component/blob/407a7633944c349a663383cf4afbdc8f01ee1edc/.github/CODING_CONVENTIONS.md).
 
-
 ## Code of Conduct
-
 By participating, you are expected to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community. and follow our Code of conduct. Please report unacceptable behavior.
 
 Our Standards
@@ -93,5 +83,4 @@ Other conduct which could reasonably be considered inappropriate in a profession
 Maintainers also have the right and responsibility to remove, edit, or reject comments, commits, code and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
 
 ## Legal
-
 MIT License.
