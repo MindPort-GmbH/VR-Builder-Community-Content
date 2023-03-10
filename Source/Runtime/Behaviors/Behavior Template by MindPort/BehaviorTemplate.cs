@@ -114,6 +114,7 @@ namespace MindPort.Examples
             Data.SceneObjectReference = new SceneObjectReference("");
             Data.GrabbableProperty = new ScenePropertyReference<IGrabbableProperty>("");
             Data.FloatValue = 0.0f;
+            Data.Name = "Behavior Template";
         }
 
         /// <summary>
