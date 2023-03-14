@@ -19,15 +19,18 @@ Make sure to follow VR Builder [tutorials](https://www.mindport.co/vr-builder/tu
 Templates for behaviors and conditions can be found in this repo. Feel free to use them as a base to develop your own!
 
 ## Content guidelines
-Your contribution should be documented and contained in its own subfolders.
-Content submitted is suitable for use in a professional or personal development pipeline.
-The submission does not directly recreate a popular design, art style and aesthetic, and is not a compilation of found (copyrighted or not) content/products. The submission is also not the direct result of public tutorials, unless significant value is added beyond the result of the tutorial.
-No aspect of your contribution promotes marketplaces, products or digital stores.
-Packages do not throw any errors or warnings which originate from package content after setup is complete. Handled exceptions are acceptable.
-Your contribution does not contain an excessive amount of spelling or grammar mistakes.
-Titles, categories, keywords, folders, and file names are a relevant representation of your product.
-Titles, descriptions, keywords, documentation, and code comments are in English. 
-Submissions may include demo scenes. 
+- If you are creating behaviors or conditions, you can refer to the commented templates provided in the `Source/Runtime/Behaviors` or `/Conditions` folder. These provide an example of how to organize the submission, as well as some guidance in coding a behavior or condition.
+- Create subfolders for your content. Runtime code should go in the `Source/Runtime` folder (and subfolders where applicable), while editor code (e.g. menu items) should go in the `Source/Editor` folder.
+- Document your contribution and provide contact information. The documentation should be included in the feature's main folder (e.g. where the behavior/condition's code is kept).
+- Content submitted is suitable for use in a professional or personal development pipeline.
+- Your submission does not throw any errors or warnings which originate from package content after setup is complete. Handled exceptions are acceptable.
+- Your contribution does not contain an excessive amount of spelling or grammar mistakes.
+- Titles, categories, keywords, folders, and file names are a relevant representation of your product.
+- Titles, descriptions, keywords, documentation, and code comments are in English. 
+- The submission does not directly recreate a popular design, art style and aesthetic, and is not a compilation of found (copyrighted or not) content/products. 
+- The submission is also not the direct result of public tutorials, unless significant value is added beyond the result of the tutorial.
+- No aspect of your contribution promotes marketplaces, products or digital stores.
+- Submissions may include demo scenes. 
 
 ## Submitting Content
 By default, this repository is protected, the only way to submit changes is by merging via [creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork), this is only intending to provide the best quality and add a security layer, we could detect and prevent new bugs, breaking functionalities and avoid violations to [code convention](#coding-conventions).
@@ -83,4 +86,5 @@ Other conduct which could reasonably be considered inappropriate in a profession
 Maintainers also have the right and responsibility to remove, edit, or reject comments, commits, code and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
 
 ## Legal
-MIT License.
+
+This repo is covered by the [MIT License](LICENSE.TXT).
