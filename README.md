@@ -23,7 +23,7 @@ Templates for behaviors and conditions can be found in this repo. Feel free to u
 ## Installation
 Pull this repo in the `Assets` folder of a Unity project containing VR Builder, or create a submodule. The recommended path is `Assets/MindPort/VR Builder/Add-ons/Community`, but any path should work.
 
-The content is validated to work with the latest VR Builder version.
+The content is validated to compile with the latest VR Builder version.
 
 ## Content Guidelines
 - If you are creating behaviors or conditions, you can refer to the commented templates provided in the `Source/Runtime/Behaviors` or `/Conditions` folder. These provide an example of how to organize the submission, as well as some guidance in coding a behavior or condition.
@@ -41,6 +41,8 @@ The content is validated to work with the latest VR Builder version.
 
 ## Obsolete Content
 It can happen that older content is no longer compatible with VR Builder, due to updates in the main product. If a trivial update is required, maintainers will take care of it. If a more complex rework is needed, you will be notified so you can step in and solve the issue. Code that fails to compile will first be commented out and moved to an OBSOLETE folder, then deleted.
+
+Note that maintainers will only address compile errors and don't perform any testing on community features - if the code still compiles but doesn't work as intended anymore due to external updates, it's up to the community to fix the issue or notify the feature is obsolete.
 
 ## Submitting Content
 By default, this repository is protected, the only way to submit changes is by merging via [creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork), this is only intending to provide the best quality and add a security layer, we could detect and prevent new bugs, breaking functionalities and avoid violations to [code convention](#coding-conventions).
