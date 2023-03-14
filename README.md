@@ -72,7 +72,7 @@ By encouraging coding conventions we ensure:
 * Facilitating copying, changing, and maintaining the code.
 * Sticking to C# best practices.
 
-We recommend following Innoactive [Coding Conventions](https://github.com/Innoactive/XR-Interaction-Component/blob/407a7633944c349a663383cf4afbdc8f01ee1edc/.github/CODING_CONVENTIONS.md).
+We recommend following these [Coding Conventions](CODING_CONVENTIONS.md).
 
 ## Code of Conduct
 By participating, you are expected to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community. and follow our Code of conduct. Please report unacceptable behavior.
