@@ -4,7 +4,9 @@ At MindPort we want to thank you for being part of this community and contributi
 
 ### Table of Contents
 1. [Getting Started](#getting-started)
+1. [Installation](#installation)
 1. [Content Guidelines](#content-guidelines)
+1. [Obsolete Content](#obsolete-content)
 1. [Submitting content](#submitting-content)
 1. [Maintainers](#maintainers)
 1. [Coding Conventions](#coding-conventions)
@@ -18,7 +20,12 @@ Make sure to follow VR Builder [tutorials](https://www.mindport.co/vr-builder/tu
 
 Templates for behaviors and conditions can be found in this repo. Feel free to use them as a base to develop your own!
 
-## Content guidelines
+## Installation
+Pull this repo in the `Assets` folder of a Unity project containing VR Builder, or create a submodule. The recommended path is `Assets/MindPort/VR Builder/Add-ons/Community`, but any path should work.
+
+The content is validated to work with the latest VR Builder version.
+
+## Content Guidelines
 - If you are creating behaviors or conditions, you can refer to the commented templates provided in the `Source/Runtime/Behaviors` or `/Conditions` folder. These provide an example of how to organize the submission, as well as some guidance in coding a behavior or condition.
 - Create subfolders for your content. Runtime code should go in the `Source/Runtime` folder (and subfolders where applicable), while editor code (e.g. menu items) should go in the `Source/Editor` folder.
 - Document your contribution and provide contact information. The documentation should be included in the feature's main folder (e.g. where the behavior/condition's code is kept).
@@ -31,6 +38,9 @@ Templates for behaviors and conditions can be found in this repo. Feel free to u
 - The submission is also not the direct result of public tutorials, unless significant value is added beyond the result of the tutorial.
 - No aspect of your contribution promotes marketplaces, products or digital stores.
 - Submissions may include demo scenes. 
+
+## Obsolete Content
+It can happen that older content is no longer compatible with VR Builder, due to updates in the main product. If a trivial update is required, maintainers will take care of it. If a more complex rework is needed, you will be notified so you can step in and solve the issue. Code that fails to compile will first be commented out and moved to an OBSOLETE folder, then deleted.
 
 ## Submitting Content
 By default, this repository is protected, the only way to submit changes is by merging via [creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork), this is only intending to provide the best quality and add a security layer, we could detect and prevent new bugs, breaking functionalities and avoid violations to [code convention](#coding-conventions).
