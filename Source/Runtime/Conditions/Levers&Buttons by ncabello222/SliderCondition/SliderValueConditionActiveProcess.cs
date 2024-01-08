@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using VRBuilder.Core;
-using UnityEngine.XR.Content.Interaction;
 
 public class SliderValueConditionActiveProcess : StageProcess<SliderValueConditionData>
 {
