@@ -9,13 +9,13 @@ This contribution is provided as an archive as it included external dependencies
 
 ## Requirements
 
-This asset works with VR Builder 3.
+This asset is based on the XR Interaction Toolkit example scene (https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples), which is required for it to compile.
 
-Additionally, the XRI demo scene should be present in the project.
+It has been tested on VR Builder 3.4.0.
 
 ## Installation
 
-- Open the XR Interaction Toolkit demo scene in your project.
+- Pull https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples in a new project.
 - Import VR Builder.
 - Unzip the Levers&Buttons.zip file in this folder.
 - To enable menu items, unzip the Levers&Buttons_Editor.zip file in the Source/Editor folder.
