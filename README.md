@@ -1,3 +1,7 @@
+<h3 align="center">Note: The Community-Content is not compatible with VR Builder 5 and Unity 6</h1>
+
+# 
+
 # How to contribute
 
 At MindPort we want to thank you for being part of this community and contributing to the community repository of VR Builder, a place where you can share your custom behaviors, conditions and extensions.
