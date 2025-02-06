@@ -1,5 +1,3 @@
-<h3 align="center">Note: The Community-Content is not compatible with VR Builder 5 and Unity 6</h1>
-
 # 
 
 # How to contribute
@@ -25,16 +23,18 @@ Make sure to follow VR Builder [tutorials](https://www.mindport.co/vr-builder/tu
 Templates for behaviors and conditions can be found in this repo. Feel free to use them as a base to develop your own!
 
 ## Installation
-Pull this repo in the `Assets` folder of a Unity project containing VR Builder, or create a submodule. The recommended path is `Assets/MindPort/VR Builder/Add-ons/Community`, but any path should work.
+For Development purposes pull this repo in the `Assets` folder of a Unity project containing VR Builder, or create a submodule. The recommended path is `Assets/MindPort/VR Builder/Add-ons/Community`, but any path should work.
+End Users can install each add-on separately by git-URLs like  https://github.com/MindPort-GmbH/VR-Builder-Community-Content.git?path=/Gaze for the Gaze add-on.
 
 You are using this content at your own risk. MindPort will ensure that the main branch compiles with the latest version of VR Builder, but does not provide any guarantee that the content will keep working in future VR Builder versions.
 
 ## Content Guidelines
-- If you are creating behaviors or conditions, you can refer to the commented templates provided in the `Source/Runtime/Behaviors` or `/Conditions` folder. These provide an example of how to organize the submission, as well as some guidance in coding a behavior or condition.
-- Create subfolders for your content. Runtime code should go in the `Source/Runtime` folder (and subfolders where applicable), while editor code (e.g. menu items) should go in the `Source/Editor` folder.
+- If you are creating behaviors or conditions, you can refer to the commented templates provided in the `Tutorial Assets` folder. These provide an example of how to organize the submission, as well as some guidance in coding a behavior or condition.
+- Create a subfolder named after the add on for your content. Runtime code should go in the `add-on-name/Runtime` folder (and subfolders where applicable), while editor code (e.g. menu items) should go in the `add-on-name/Editor` folder.
+- Provide a package.json file, so your add-on is installable separately via a git-URL from the community repository by end users
 - Document your contribution and provide contact information. The documentation should be included in the feature's main folder (e.g. where the behavior/condition's code is kept).
 - Your code is based only on VR Builder core, and should not require any of the VR Builder add-ons to work.
-- In case your code requires external packages to compile properly (e.g. a different XRIT version than current VR Builder, or a separate Unity asset), you can put it in zip archives while clearly documenting requirements and installation procedure.
+- In case your code requires external packages to compile properly (e.g. a different XRIT version than current VR Builder, or a separate Unity asset), you can put it in zip archives and/or clearly documenting requirements and installation procedure.
 - Content submitted is suitable for use in a professional or personal development pipeline.
 - Your submission does not throw any errors or warnings which originate from package content after setup is complete. Handled exceptions are acceptable.
 - Your contribution does not contain an excessive amount of spelling or grammar mistakes.

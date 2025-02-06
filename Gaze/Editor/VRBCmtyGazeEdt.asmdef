@@ -1,0 +1,22 @@
+{
+    "name": "VRBCmtyGazeEdt",
+    "rootNamespace": "",
+    "references": [
+        "VRBuilder.Core",
+        "VRBuilder.BasicInteraction",
+        "VRBuilder.XRInteraction",
+        "VRBCmtyGazeRt",
+        "VRBuilder.Core.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

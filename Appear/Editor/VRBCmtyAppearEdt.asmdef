@@ -1,0 +1,20 @@
+{
+    "name": "VRBCmtyAppearEdt",
+    "rootNamespace": "",
+    "references": [
+        "VRBuilder.Core",
+        "VRBCmtyAppearRt",
+        "VRBuilder.Core.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
