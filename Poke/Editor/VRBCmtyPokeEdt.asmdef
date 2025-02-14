@@ -2,10 +2,10 @@
     "name": "VRBCmtyPokeEdt",
     "rootNamespace": "",
     "references": [
+        "VRBuilderCmtyPoke",
         "VRBuilder.Core",
         "VRBuilder.BasicInteraction",
         "VRBuilder.XRInteraction",
-        "VRBuilderCmtyPoke",
         "VRBuilder.Core.Editor"
     ],
     "includePlatforms": [

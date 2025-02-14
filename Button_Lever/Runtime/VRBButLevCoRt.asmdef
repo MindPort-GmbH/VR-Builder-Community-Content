@@ -1,15 +1,11 @@
 {
-    "name": "VRBCmtyGazeEdt",
+    "name": "VRBButLevCoRt",
     "rootNamespace": "",
     "references": [
-        "VRBCmtyGazeRt",
         "VRBuilder.Core",
-        "VRBuilder.BasicInteraction",
         "VRBuilder.XRInteraction",
-        "VRBuilder.Core.Editor"
-    ],
-    "includePlatforms": [
-        "Editor"
+		"Unity.XR.Content.Interaction",
+        "Unity.XR.Interaction.Toolkit"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

@@ -1,13 +1,25 @@
-{"name":"vrbuilder.community.appear","displayName":"VR Builder Appear Behavior","version":"1.0.0",
-"unity":"6.0","description":"by vued - Appear and Disappear Behaviors (2 methods)"
-,"category":"",
-  "license": "MIT",
-  "licensesUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/LICENSE.txt",
-  "changelogUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/Appear/CHANGELOG.md",
-  "documentationUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/Appear/README.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/tree/main/Appear",
-    "directory": ""
-  },
-"author":{	"name":"VRBuilder Community",	"email":"",	"url":"https://github.com/MindPort-GmbH/VR-Builder-Community-Content"}}
+{
+    "name": "vrbuilder.community.appear",
+    "displayName": "VR Builder Appear Behavior",
+    "version": "1.0.0",
+    "unity": "6.0",
+    "description": "by vued - Appear and Disappear Behaviors (2 methods)",
+    "category": "",
+    "license": "MIT",
+    "licensesUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/LICENSE.txt",
+    "changelogUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/Appear/CHANGELOG.md",
+    "documentationUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/Appear/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/tree/main/Appear",
+        "directory": ""
+    },
+    "author": {
+        "name": "VRBuilder Community",
+        "email": "",
+        "url": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content"
+    },
+    "dependencies": {
+        "co.mindport.vrbuilder.core": "5.0.0"
+    }
+}

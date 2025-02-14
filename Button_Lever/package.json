@@ -1,13 +1,25 @@
-{"name":"vrbuilder.community.button_lever","displayName":"VR Builder Button Lever Condition","version":"1.0.0",
-"unity":"6.0","description":"by nicolas22221234 - Button+Lever Interaction Conditions (requires content from XRI sample code)"
-,"category":"",
-  "license": "MIT",
-  "licensesUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/LICENSE.txt",
-  "changelogUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/Button_Lever/CHANGELOG.md",
-  "documentationUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/README.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/tree/main/Button_Lever",
-    "directory": ""
-  },
-"author":{	"name":"VRBuilder Community",	"email":"",	"url":"https://github.com/MindPort-GmbH/VR-Builder-Community-Content"}}
+{
+    "name": "vrbuilder.community.button_lever",
+    "displayName": "VR Builder Button Lever Condition",
+    "version": "1.0.0",
+    "unity": "6.0",
+    "description": "by nicolas22221234 - Button+Lever Interaction Conditions (requires content from XRI sample code: https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples/)",
+    "category": "",
+    "license": "MIT",
+    "licensesUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/LICENSE.txt",
+    "changelogUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/Button_Lever/CHANGELOG.md",
+    "documentationUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/tree/main/Button_Lever",
+        "directory": ""
+    },
+    "author": {
+        "name": "VRBuilder Community",
+        "email": "",
+        "url": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content"
+    },
+    "dependencies": {
+        "co.mindport.vrbuilder.core": "5.0.0"
+    }
+}

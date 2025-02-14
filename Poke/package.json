@@ -1,13 +1,25 @@
-{"name":"vrbuilder.community.poke","displayName":"VR Builder Poke Condition","version":"1.0.0",
-"unity":"6.0","description":"by vued - Poke Interaction condition"
-,"category":"",
-  "license": "MIT",
-  "licensesUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/LICENSE.txt",
-  "changelogUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/Poke/CHANGELOG.md",
-  "documentationUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/Poke/README.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/Poke",
-    "directory": ""
-  },
-"author":{	"name":"VRBuilder Community",	"email":"",	"url":"https://github.com/MindPort-GmbH/VR-Builder-Community-Content"}}
+{
+    "name": "vrbuilder.community.poke",
+    "displayName": "VR Builder Poke Condition",
+    "version": "1.0.0",
+    "unity": "6.0",
+    "description": "by vued - Poke Interaction condition",
+    "category": "",
+    "license": "MIT",
+    "licensesUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/LICENSE.txt",
+    "changelogUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/Poke/CHANGELOG.md",
+    "documentationUrl": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/blob/main/Poke/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content/Poke",
+        "directory": ""
+    },
+    "author": {
+        "name": "VRBuilder Community",
+        "email": "",
+        "url": "https://github.com/MindPort-GmbH/VR-Builder-Community-Content"
+    },
+    "dependencies": {
+        "co.mindport.vrbuilder.core": "5.0.0"
+    }
+}

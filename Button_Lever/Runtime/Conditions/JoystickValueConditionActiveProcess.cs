@@ -3,11 +3,8 @@ using UnityEngine;
 using VRBuilder.Core;
 using UnityEngine.XR.Content.Interaction;
 
-
 namespace VRBuilder.Community
 {
-    
-
     public class JoystickValueConditionActiveProcess : StageProcess<JoystickValueConditionData>
     {
         private float elapsedTime = 0f;

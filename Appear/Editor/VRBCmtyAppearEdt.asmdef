@@ -2,8 +2,8 @@
     "name": "VRBCmtyAppearEdt",
     "rootNamespace": "",
     "references": [
-        "VRBuilder.Core",
         "VRBCmtyAppearRt",
+        "VRBuilder.Core",
         "VRBuilder.Core.Editor"
     ],
     "includePlatforms": [
