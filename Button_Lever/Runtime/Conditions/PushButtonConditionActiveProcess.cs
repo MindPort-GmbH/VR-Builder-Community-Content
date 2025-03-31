@@ -56,6 +56,7 @@ namespace VRBuilder.Community
         public override void End()
         {
             XRPushButton button = Data.Target.Value.GameObject.GetComponent<XRPushButton>();
+            Data.IsCompleted = false;  // reset completed state, otherwise it would stay completed when using in a loop...
             if (button != null)
             {
                 button.onPress.RemoveListener(OnButtonPressed);
